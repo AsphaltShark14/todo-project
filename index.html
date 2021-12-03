@@ -8,13 +8,12 @@
     <script src="https://kit.fontawesome.com/083a83275a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- ToDo input field -->
+    <!-- ToDo search bar -->
     <div class="wrapper">
         <header>
             <h1>To Do List</h1>
-            <form class='add'>
-                <input type="text" placeholder="What you want to do?" name="input">
-                <button type='button' class='button'>Add new!</button>
+            <form class="search">
+                <input type="text" placeholder="Search for..." name="search" id="search">
             </form>
         </header>
     <!-- ToDo list -->
@@ -33,6 +32,13 @@
                     <i class="far fa-trash-alt delete"></i>
                 </li>
             </ul>
+        </div>
+        <!-- ToDo input field-->
+        <div class="field">
+            <form class='add'>
+                <input type="text" placeholder="What you want to do?" name="input">
+                <button type='button' class='button'>Add new!</button>
+            </form>
         </div>
     </div>
     <script src="app.js"></script>
